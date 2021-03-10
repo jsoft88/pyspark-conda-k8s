@@ -17,7 +17,7 @@ a go with this one: [https://archive.apache.org/dist/spark/spark-2.4.6/spark-2.4
 You can proceed like this:
 ```shell
 > wget https://archive.apache.org/dist/spark/spark-2.4.6/spark-2.4.6-bin-without-hadoop.tgz -O /tmp/spark-2.4.6.tar.gz
-> tar -zxf /tmp/spark-2.4.6.tar.gz
+> tar -zxf /tmp/spark-2.4.6.tar.gz -C /tmp
 > cd /tmp/spark-2.4.6-bin-without-hadoop/bin
 ```
 As stated in the Spark official docs ([Spark on kubernetes](https://spark.apache.org/docs/2.4.6/running-on-kubernetes.html)),
