@@ -16,7 +16,7 @@ You will need to download spark from the official site, in my case I gave it
 a go with this one: [https://archive.apache.org/dist/spark/spark-2.4.6/spark-2.4.6-bin-without-hadoop.tgz](https://archive.apache.org/dist/spark/spark-2.4.6/spark-2.4.6-bin-without-hadoop.tgz).
 You can proceed like this:
 ```shell
-> wget https://archive.apache.org/dist/spark/spark-2.4.6/spark-2.4.6-bin-without-hadoop.tgz -O /tmp/spark-2.4.0.tar.gz
+> wget https://archive.apache.org/dist/spark/spark-2.4.6/spark-2.4.6-bin-without-hadoop.tgz -O /tmp/spark-2.4.6.tar.gz
 > tar -zxf /tmp/spark-2.4.6.tar.gz
 > cd /tmp/spark-2.4.6-bin-without-hadoop/bin
 ```
